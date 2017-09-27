@@ -1,0 +1,182 @@
+/* PRINCIPAIS */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CORES DE FUNDO */
+
+.primeira{
+    background-color: #b1ede8;
+}
+
+.primeira{
+    background-color: #b1ede8;
+}
+
+.segunda{
+    background-color: #ff6978;
+}
+
+.terceira{
+    background-color: #fffcf9;
+}
+
+
+
+/* PRIMEIRA SECTION */
+
+.cadastro p{
+    margin-top: 0;
+}
+
+.cadastro {
+    padding: 20px 0 20px 0;
+}
+
+.primeira{
+    padding: 50px;
+}
+
+.smartphone{
+    margin: 0;
+    padding: 0;
+}
+.smartphone img{
+    width: 200px;
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cadastro input[type="email"]{
+    width: 500px;
+    height: 30px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.cadastro input[type="submit"]{
+    background-color: #ff6978;
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* SEGUNDA SECTION */
+
+.container img{
+    width: 400px;
+    padding-top: 0;
+}
+
+.segunda-section h2{
+    color: white;
+    padding: 20px;
+}
+
+.segunda-section p{
+    color: white;
+    
+}
+
+.blocos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blocos > div{
+    max-width: 300px;
+}
+
+.blocos h3{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.blocos p{
+    color: white;
+    text-align: justify;
+}
+
+.segunda{
+    padding: 50px;
+}
+
+
+/* TERCEIRA SECTION */
+
+
+.terceira p{
+   margin: 50px;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.container p{
+    margin: 0 0 40px 0;
+}
+
+.terceira{
+    margin: 60px;
+}
+
+.app img{
+    width: 250px;
+}
+
+/* FOOTER */
+
+.quarta{
+    padding: 15 px;
+}
+
+.quarta img, p{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.quarta p{
+    color: white;
+    float: right;    
+}
+
+.quarta img{
+    width: 300px;
+    padding-left: 0;
+}
+   
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #340068;
+}
+
+.container img{
+    width: 200px;
+    padding: 5px;
+}
+ 
+
+
