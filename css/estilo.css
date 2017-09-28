@@ -14,10 +14,13 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-
 /* CORES DE FUNDO */
 
 .primeira{
+    background-color: #b1ede8;
+}
+
+.primeirab{
     background-color: #b1ede8;
 }
 
@@ -33,34 +36,27 @@ body{
     background-color: #fffcf9;
 }
 
-
-
 /* PRIMEIRA SECTION */
 
 .cadastro p{
     margin-top: 0;
 }
 
-.cadastro {
+.cadastro{
     padding: 20px 0 20px 0;
+}
+
+.cadastro input{
+    margin: 5px;
 }
 
 .primeira{
     padding: 50px;
 }
 
-.smartphone{
-    margin: 0;
-    padding: 0;
-}
 .smartphone img{
-    width: 200px;
-}
-
-.cadastro{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 250px;
+    margin-bottom: 50px;
 }
 
 .cadastro input[type="email"]{
@@ -83,10 +79,16 @@ body{
     font-size: 20px;
 }
 
+.divprincipalcelular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* SEGUNDA SECTION */
 
-.container img{
-    width: 400px;
+.segunda-section img{
+    width: 600px;
     padding-top: 0;
 }
 
@@ -96,17 +98,17 @@ body{
 }
 
 .segunda-section p{
-    color: white;
-    
+    color: white;    
 }
 
 .blocos{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .blocos > div{
-    max-width: 300px;
+    min-width: 300px;
 }
 
 .blocos h3{
@@ -135,7 +137,7 @@ body{
 }
 
 .container p{
-    margin: 0 0 40px 0;
+    margin: 0 35px 40px 0;
 }
 
 .terceira{
@@ -148,35 +150,74 @@ body{
 
 /* FOOTER */
 
-.quarta{
-    padding: 15 px;
-}
-
-.quarta img, p{
-    display: inline-flex;
-    justify-content: space-around;
-}
-
-.quarta p{
-    color: white;
-    float: right;    
-}
-
-.quarta img{
-    width: 300px;
-    padding-left: 0;
-}
-   
 footer{
-    display: flex;
-    align-items: center;
     background-color: #340068;
 }
 
-.container img{
-    width: 200px;
-    padding: 5px;
+rodaflex.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
- 
 
+.rodape p{
+    color: white;    
+}
 
+.rodape img{
+    width: 350px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .cadastro input[type="email"]{
+    width: 150px;
+    height: 30px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+.cadastro input[type="submit"]{
+    background-color: #ff6978;
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+     .smartphone img{
+    width: 150px;
+    margin-bottom: 50px;
+}
+    *{
+    box-sizing: border-box;
+}
+    .divprincipalcelular{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+    .blocos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+    .app img{
+        width: 250px;
+    }
+
+    .segunda-section img{
+    width: 300px;
+    padding-top: 0;
+}
